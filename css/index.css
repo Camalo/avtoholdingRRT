@@ -1,0 +1,180 @@
+
+@font-face {
+    font-family: 'Nissan Brand Bold';
+    src: url('fonts/NissanBrandBold/NissanBrand-Bold.eot');
+    src:
+        url('fonts/NissanBrandBold/NissanBrand-Bold.woff') format('woff'),
+        url('fonts/NissanBrandBold/NissanBrand-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Nissan Brand Regular';
+    src: url('fonts/NissanBrandRegular/NissanBrand-Regular.eot');
+    src: 
+    url('fonts/NissanBrandRegular/NissanBrand-Regular.woff') format('woff'),
+    url('fonts/NissanBrandRegular/NissanBrand-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+body {
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nissan Brand Bold';
+    font-size: 13px;
+    line-height: 1;
+}
+
+p{
+    font-family: 'Nissan Brand Regular';
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.header-text {
+    font-size: 1.7rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1.2;
+    font-stretch: expanded;
+}
+
+h2.header-text {
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+
+.red-subheader {
+    color: #c3002f;
+    margin-bottom: 10px;
+}
+
+.black-text {
+    color: black;
+}
+
+.white-text {
+    color: white;
+}
+
+/* БЛОК ВНУТРИ ИЗОБРАЖЕНИЯ */
+
+.image-container {
+    margin-top: 20px;
+    background-image: url('../images/era-glonass.jpg');
+    height: 624px;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+
+}
+
+.inner-image-element {
+    width: 45%;
+    background-color: rgba(0, 1, 17, 0.8);
+    padding-left: 40px;
+    padding-top: 0;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+.text-container{
+ 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+/* КРАСНАЯ И ПУНКТИРНАЯ ЛИНИИ */
+.line::before {
+    content: " ";
+    display: block;
+    position: relative;
+    left: -10px;
+    top: -10px;
+    height: 10px;
+    width: 90px;
+    background-color: #c3002f;
+}
+
+.line {
+    border-bottom: 1px dashed #dcdcdc;
+
+}
+
+/* КАРТОЧКИ */
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.info-card{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.img-fluid{
+    min-width: 100%;
+    height: auto;
+}
+
+.info-card-header{
+    font-size: 20px;
+    font-family: 'Nissan Brand Bold';
+    padding-bottom: 20px;
+}
+
+
+/* АДАПТИВКА */
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .container {
+        max-width: 1240px;
+    }
+}

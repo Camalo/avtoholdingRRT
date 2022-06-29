@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Nissan Brand Bold';
+    src: url('fonts/NissanBrandBold/NissanBrand-Bold.eot');
+    src:
+        url('fonts/NissanBrandBold/NissanBrand-Bold.woff') format('woff'),
+        url('fonts/NissanBrandBold/NissanBrand-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Nissan Brand Regular';
+    src: url('fonts/NissanBrandRegular/NissanBrand-Regular.eot');
+    src: 
+    url('fonts/NissanBrandRegular/NissanBrand-Regular.woff') format('woff'),
+    url('fonts/NissanBrandRegular/NissanBrand-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+.container{
+    margin: 0, auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.info-card{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.img-fluid{
+    min-width: 100%;
+    height: auto;
+}
+
+.info-card-header{
+    font-size: 20px;
+    font-family: 'Nissan Brand Bold';
+    padding-bottom: 20px;
+}
