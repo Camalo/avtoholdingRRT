@@ -4,9 +4,11 @@
 Тестовое задание включает в себя верстку блоков с использованием bootstrap.
 
 Первый блок:
+
 ![](https://github.com/Camalo/avtoholdingRRT/blob/main/Block1.png)
 
 Блок с карточками:
+
 ![](https://github.com/Camalo/avtoholdingRRT/blob/main/Block2.png)
 
 Файлы с этим заданием находятся в папке layout
