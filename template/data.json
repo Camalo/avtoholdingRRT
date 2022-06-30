@@ -1,0 +1,20 @@
+{
+    "text_data": {
+        "header": "Заголовок"
+    },
+    "dtmpl_data": {
+        "fields": {
+            "description": {
+                "field_value": "Текст"
+            },
+            "image": {
+                "field_value": "images/no-image-large.jpg"
+            }
+        },
+        "url": {
+            "description": {
+                "field_value": "layout/index.html"
+            }
+        }
+    }
+}
